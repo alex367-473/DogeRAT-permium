@@ -1,24 +1,24 @@
 {
   "name": "devil",
   "version": "2.0.0",
-  "description": "",
+  "description": "A Telegram bot",
   "main": "server.js",
   "engines": {
-    "node": "16.13.2"
+    "node": ">=18"
   },
   "scripts": {
-    "start": "npm start"
+    "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": ["telegram", "bot"],
   "author": "l",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.1",
     "body-parser": "^1.19.1",
-    "express": "latest",
+    "express": "^5.1.0",
     "multer": "^1.4.4",
-    "node-telegram-bot-api": "latest",
+    "node-telegram-bot-api": "^0.66.0",
     "uuid": "^8.3.2",
-    "ws": "latest",
-    "axios": "^0.26.1"
+    "ws": "^8.18.0"
   }
 }
